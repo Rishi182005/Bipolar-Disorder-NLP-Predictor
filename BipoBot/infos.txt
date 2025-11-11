@@ -1,0 +1,7 @@
+python -m streamlit run dashboard.py
+
+cd "C:\Users\SP AKILAN\Music\HANLP"
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+. .\.venv\Scripts\Activate.ps1

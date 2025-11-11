@@ -1,0 +1,12 @@
+# .gitignore
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.ipynb_checkpoints
+*.pt
+*.bin
+*.onnx
+*.log
+.cache/
+models/  # if you later cache HF models

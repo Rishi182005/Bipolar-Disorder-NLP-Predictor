@@ -1,0 +1,22 @@
+# --- Core Framework ---
+streamlit==1.39.0
+
+# --- Data Handling ---
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+joblib==1.4.2
+
+# --- NLP & Sentiment Analysis ---
+vaderSentiment==3.3.2
+transformers==4.37.2
+torch==2.2.2
+tokenizers==0.15.2
+sentencepiece==0.2.0
+
+# --- Utility & Requests ---
+requests==2.32.3
+
+# --- Optional (future add-ons) ---
+SpeechRecognition==3.10.4
+python-telegram-bot==20.8
