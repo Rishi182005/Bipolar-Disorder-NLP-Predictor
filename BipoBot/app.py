@@ -9,6 +9,7 @@ st.set_page_config(page_title="BipoBot", page_icon="🧠", layout="wide")
 st.title("🧠 BipoBot – AI Bipolar Mood Companion")
 st.caption("Talk to me like your therapist. I’ll listen, predict, and protect you from mood crashes.")
 
+
 @st.cache_resource
 def load_artifacts():
     model = joblib.load("model/mood_model.pkl")
